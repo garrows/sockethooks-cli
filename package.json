@@ -1,0 +1,30 @@
+{
+  "name": "sockethooks",
+  "version": "1.0.0",
+  "description": "Tool for controlling sockethooks.garrows.com",
+  "main": "index.js",
+  "bin": {
+    "sockethooks": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrows/sockethooks-cli.git"
+  },
+  "keywords": [
+    "sockethook",
+    "sockethooks"
+  ],
+  "author": "Glen Arrowsmith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrows/sockethooks-cli/issues"
+  },
+  "homepage": "https://github.com/garrows/sockethooks-cli#readme",
+  "dependencies": {
+    "socket.io-client": "^1.5.0"
+  }
+}
